@@ -23,5 +23,13 @@ extension UIButton{
         //会根据北京图片的大小调整尺寸
         sizeToFit()
     }
+    convenience init(title:String,color:UIColor,imageName:String)
+    {
+        self.init()
+        setTitle(title, for: .normal)
+        setTitleColor(color, for: .normal)
+        setBackgroundImage(UIImage(named:imageName), for: .normal)
+        sizeToFit()
+    }
 }
 
