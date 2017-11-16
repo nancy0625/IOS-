@@ -111,12 +111,14 @@ private class NewFeatureCell:UICollectionViewCell{
         fatalError("init(coder:)has not been implemented")
     }
     private func setupUI(){
+         startButton.isHidden = true
         //1.添加控件
         addSubview(iconView)
         //2.指定位置
          iconView.frame = bounds
-        addSubview(startButton)
-           startButton.isHidden = true
+         addSubview(startButton)
+        
+        
         startButton.snp.makeConstraints { (make) in
             make.centerX.equalTo(self.snp.centerX)
             make.bottom.equalTo(self.snp.bottom).multipliedBy(0.7)
@@ -131,8 +133,10 @@ private class NewFeatureCell:UICollectionViewCell{
     
     public var imageIndex:Int = 0
         {
+        
         didSet
         {
+            startButton.isHidden = true
             iconView.image = UIImage(named: "new_feature_\(imageIndex + 1)")
         }
         

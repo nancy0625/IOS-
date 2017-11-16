@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		189584F81FAAD12B00E4A8B5 /* UserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189584F71FAAD12B00E4A8B5 /* UserAccountViewModel.swift */; };
 		18A59F181FA1881D00B19ADE /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A59F171FA1881D00B19ADE /* UserAccount.swift */; };
+		18BFA1B11FBD325300994EE4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFA1B01FBD325300994EE4 /* WelcomeViewController.swift */; };
+		18BFA1B31FBD334000994EE4 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFA1B21FBD334000994EE4 /* UIImageView+Extension.swift */; };
+		18BFA1B91FBD356C00994EE4 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFA1B81FBD356C00994EE4 /* UILabel+Extension.swift */; };
 		18C387BF1F96FD9D00E70595 /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C387BE1F96FD9D00E70595 /* OAuthViewController.swift */; };
 		18F97FAE1F8DC9EA00B18669 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F97FAD1F8DC9EA00B18669 /* NetworkTools.swift */; };
 		18FF5CA21FBBE2E60030D0B1 /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF5CA11FBBE2E60030D0B1 /* NewFeatureViewController.swift */; };
@@ -27,7 +30,7 @@
 		3FB2C5011F6A2B7600CC6E57 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2C5001F6A2B7600CC6E57 /* UIButton+Extension.swift */; };
 		3FC8CBF21F720A5F00E07694 /* VisitorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8CBF11F720A5F00E07694 /* VisitorTableViewController.swift */; };
 		3FC8CBF61F720EA400E07694 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8CBF51F720EA400E07694 /* VisitorView.swift */; };
-		6B6B1C9190651AF118681682 /* Pods_Wei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1A99DF087773B90B8968B /* Pods_Wei.framework */; };
+		DFFD28C4F2AEBC3A9FC52C34 /* Pods_Wei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1A99DF087773B90B8968B /* Pods_Wei.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,10 @@
 /* Begin PBXFileReference section */
 		189584F71FAAD12B00E4A8B5 /* UserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountViewModel.swift; sourceTree = "<group>"; };
 		18A59F171FA1881D00B19ADE /* UserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		18BFA1B01FBD325300994EE4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		18BFA1B21FBD334000994EE4 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		18BFA1B81FBD356C00994EE4 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		18BFA1BC1FBD3F6800994EE4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		18C387BE1F96FD9D00E70595 /* OAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthViewController.swift; sourceTree = "<group>"; };
 		18F97FAD1F8DC9EA00B18669 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		18FF5CA11FBBE2E60030D0B1 /* NewFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureViewController.swift; sourceTree = "<group>"; };
@@ -84,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B6B1C9190651AF118681682 /* Pods_Wei.framework in Frameworks */,
+				DFFD28C4F2AEBC3A9FC52C34 /* Pods_Wei.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				18FF5CA11FBBE2E60030D0B1 /* NewFeatureViewController.swift */,
+				18BFA1B01FBD325300994EE4 /* WelcomeViewController.swift */,
 			);
 			name = Newfeature;
 			sourceTree = "<group>";
@@ -270,6 +278,8 @@
 			isa = PBXGroup;
 			children = (
 				3FB2C5001F6A2B7600CC6E57 /* UIButton+Extension.swift */,
+				18BFA1B21FBD334000994EE4 /* UIImageView+Extension.swift */,
+				18BFA1B81FBD356C00994EE4 /* UILabel+Extension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -286,6 +296,7 @@
 		82C5E36AAABB5A4AB064E688 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18BFA1BC1FBD3F6800994EE4 /* ImageIO.framework */,
 				DED1A99DF087773B90B8968B /* Pods_Wei.framework */,
 			);
 			name = Frameworks;
@@ -456,11 +467,15 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Wei/Pods-Wei-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,12 +509,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8ABED31F68D69E00D9E4D5 /* ProfileTableViewController.swift in Sources */,
+				18BFA1B11FBD325300994EE4 /* WelcomeViewController.swift in Sources */,
 				18F97FAE1F8DC9EA00B18669 /* NetworkTools.swift in Sources */,
 				3F8ABECD1F68D65800D9E4D5 /* HomeTableViewController.swift in Sources */,
 				3F8ABECB1F68D61C00D9E4D5 /* MainViewController.swift in Sources */,
 				18C387BF1F96FD9D00E70595 /* OAuthViewController.swift in Sources */,
 				18A59F181FA1881D00B19ADE /* UserAccount.swift in Sources */,
 				3F8ABE931F68D50E00D9E4D5 /* ViewController.swift in Sources */,
+				18BFA1B91FBD356C00994EE4 /* UILabel+Extension.swift in Sources */,
 				189584F81FAAD12B00E4A8B5 /* UserAccountViewModel.swift in Sources */,
 				3F8ABECF1F68D67C00D9E4D5 /* DiscoverTableViewController.swift in Sources */,
 				3FB2C5011F6A2B7600CC6E57 /* UIButton+Extension.swift in Sources */,
@@ -507,6 +524,7 @@
 				3FC8CBF61F720EA400E07694 /* VisitorView.swift in Sources */,
 				3F8ABED11F68D68D00D9E4D5 /* MessageTableViewController.swift in Sources */,
 				18FF5CA21FBBE2E60030D0B1 /* NewFeatureViewController.swift in Sources */,
+				18BFA1B31FBD334000994EE4 /* UIImageView+Extension.swift in Sources */,
 				3F8ABE911F68D50E00D9E4D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -660,6 +678,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wei/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = you.Wei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -673,6 +700,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wei/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = you.Wei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

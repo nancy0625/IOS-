@@ -4,4 +4,6 @@ use_frameworks!
 target 'Wei' do
 pod 'AFNetworking'
 pod 'SnapKit','~>3.0.0'
+pod 'SVProgressHUD'
+pod 'SDWebImage'
 end
